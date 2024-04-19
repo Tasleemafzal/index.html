@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Calligraphy web</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Calligraphy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shop Now
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="newitems.html">New Items</a></li>
+                            <li><a class="dropdown-item" href="bestsellers.html">Best sellers</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+               
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        
+    </nav>
+    
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/12.jpg" class="d-block w-100" alt="..." width="1000" height="400">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4> Calligraphy art</h4>
+                    <p> Calligraphy Ayat Painting is a stunning piece of art that beautifully combines the intricate art
+                        of calligraphy </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/last.jpg" class="d-block w-100" alt="..." width="1000" height="400">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <p> Rich heritage of Islamic calligraphy and its profound significance in Islamic culture</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/11.jpg" class="d-block w-100" alt="..." width="1000" height="400">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <p>Experience the beauty and serenity of the Calligraphy Ayat Painting, a masterpiece that
+                        harmoniously blends art and spirituality.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+    <!------------------------------>
+    <section class="newarrivals" style="padding-top: 20px;">
+        <div class="container">
+            <div class="title-box">
+                <h2> New Arrivals </h2>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="product.html"><img src="images/4.jpg" class="rounded" width="300" height="300">
+                    </a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h5> Calligraphy Canvas</h5>
+                            <h6> USD $50.09</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-4">
+                   <a href="product2.html"> <img src="images/5.webp" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> Calligraphy Canvas</h5>
+                            <h6> USD $50.09</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product3.html"> <img src="images/9.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+
+                            <h5> Calligraphy Canvas</h5>
+                            <h6> USD $50.09</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <a href="product4.html">  <img src="images/6.webp" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> SubhanAllahi Wa Bihamdihi Calligraphy Wall Frame Canvas (Green)</h5>
+                            <h6> USD $48</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                  <a href="product5.html">  <img src="images/7.jpeg" class="rounded" width="300" height="300"></a>
+
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> SubhanAllahi Wa Bihamdihi Calligraphy Wall Frame Canvas (Pink)</h5>
+                            <h6> USD $48</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product6.html"> <img src="images/8.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> SubhanAllahi Wa Bihamdihi Calligraphy Wall Frame Canvas (yellow)</h5>
+                            <h6> USD $38</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <!------------------------------>
+    <section class="newarrivals">
+        <div class="container">
+            <div class="title-box">
+                <h2>Pair of 3</h2>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <a href="product7.html" > <img src="images/a1.jpg" class="rounded" width="300" height="300"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+
+                            <h5> Calligraphy Canvas</h5>
+                            <h6> USD $50.09</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product8.html"> <img src="images/a2.jpg" class="rounded" width="300" height="300"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> Calligraphy Canvas</h5>
+                            <h6> USD $50.09</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <a href="product9.html"><img src="images/a3.jpg" class="rounded" width="300" height="300"></a>
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"> </i>
+                            <h5> Calligraphy Canvas</h5>
+                            <h6> USD $50.09</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                   <a href="product10.html"> <img src="images/a4.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> عَزِيزٌ (The Mighty One) Canvas</h5>
+                            <h6> USD $45</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product11.html"><img src="images/a5.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h5> الخالق (alkhaliq) The Creator</h5>
+                            <h6> USD $45</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product12.html"> <img src="images/a6.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5>ٱلۡمُهَيۡمِنُ (The Guardian)</h5>
+                            <h6> USD $45</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                  <a href="product13.html"> <img src="images/1.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h5> Alhamdulillah Islamic Canvas | Calligraphy Wall Art (Black)</h5>
+                            <h6> USD $42</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product14.html"><img src="images/2.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> Alhamdulillah Islamic Canvas | Calligraphy Wall Art (Blue)</h5>
+                            <h6> USD $42</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                  <a href="product15.html">  <img src="images/3.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h5> Alhamdulillah Islamic Canvas | Calligraphy Wall Art (Green)</h5>
+                            <h6> USD $42</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section class="newarrivals">
+        <div class="container">
+            <div class="title-box">
+                <h2>Best Sellers</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                   <a href="product16.html"> <img src="images/b1.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> Glass Surah An-Nahl Islamic Wall Art</h5>
+                            <h6> USD $36</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                  <a href="product17.html">  <img src="images/b2.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> Islamic calligraphy Art Dua Islamic Decoration</h5>
+                            <h6> USD $35</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product18.html"> <img src="images/b3.webp" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h5> Allahu Akbar Calligraphy Canvas</h5>
+                            <h6> USD $50.09</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                   <a href="product19.html"> <img src="images/b4.webp" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h5> Tempered Glass Muslim Home Decoration and Quran Art</h5>
+                            <h6>USD $42</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product20.html"> <img src="images/b5.webp" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> Golden arabic Calligraphy | Bismillah</h5>
+                            <h6> USD $46.05</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                   <a href="product21.html"> <img src="images/b6.jpg" class="rounded" width="300" height="300"></a>
+
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <h5> يسٓ وَٱلْقُرْءَانِ ٱلْحَكِيمِ canvas</h5>
+                            <h6> USD $45.78</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section><hr>
+
+
+
+
+
+    <!------------------------website featured-------->
+
+    <section class="website-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 feature-box">
+                    <img src="images/gurrantee.png">
+                    <div class="feature-text">
+                        <p><b> 100% Customer satisfaction gurrantee</b></p>
+
+                    </div>
+                </div>
+                <div class="col-md-3 feature-box">
+                    <img src="images/return.png">
+                    <div class="feature-text">
+                        <p><b> Return within 30 Days of your purchase</b></p>
+
+                    </div>
+                </div>
+                <div class="col-md-3 feature-box">
+                    <img src="images/delivery.jpeg">
+                    <div class="feature-text">
+                        <p><b> Free delivery on first order</b></p>
+
+                    </div>
+                </div>
+                <div class="col-md-3 feature-box">
+                    <img src="images/payment.png">
+                    <div class="feature-text">
+                        <p><b> Online payment available</b></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-------footer-------->
+    <section class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1> Useful Links</h1>
+                    <p> Privacy Policy</p>
+                    <p> Terms & Conditions</p>
+                    <p> Return policy</p>
+                    <p> Discount coupons</p>
+
+                </div>
+                <div class="col-md-3">
+                    <h1> Company </h1>
+                    <p> About us</p>
+                    <p> Contact us</p>
+                    <p> Career</p>
+                    <p> Affiliate</p>
+
+                </div>
+                <div class="col-md-3">
+                    <h1> Follow us on</h1>
+                    <p> Facebook</p>
+                    <p> Youtube</p>
+                    <p> LinkedIn</p>
+                    <p> Twitter</p>
+
+                </div>
+                <div class="col-md-3 footer-image">
+                    <h1> Download App</h1>
+                    <img src="images/download.png" width="200px" height="150px">
+
+
+                </div>
+            </div>
+            <hr>
+            <diV>
+                <strong> Made By 2021-ag-7958(Tasleem Afzal), 2021-ag-7953(Ania Tahir), 2021-ag-8007(Atika Ausaf),2021-ag-9822(Fatima farha)</strong>
+            </diV>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
